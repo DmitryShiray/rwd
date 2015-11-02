@@ -1,0 +1,149 @@
+﻿.menu-container {
+	background: url('../../Content/img/menu-background.png');
+}
+
+.menu-item-container {
+	display: inline-table;
+	padding: 19px 10px 17px 10px;/*Desktop*/
+	padding: 19px 13px 17px 10px;/*Notebook*/
+	border-left: 1px solid rgb(217, 175, 5);
+}
+
+.menu-item-container:first-child {
+	border: none;
+	padding: 0px 20px 0px 23px; /*Desktop*/
+	padding: 0px 24px 0px 23px; /*Notebook*/
+}
+
+.menu-item-container:last-child {
+	padding: 17px 0px 17px 13px; /*Desktop*/
+	padding: 17px 0px 17px 11px; /*Notebook*/
+}
+
+.menu-item-image-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.menu-item-image {
+	height: 22px;
+}
+
+.menu-item-text-container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+}
+
+.menu-item-container:first-child .menu-item-text-container{
+	padding-left: 12px;
+}
+
+.menu-item-container:last-child .menu-item-text-container {
+	padding-left: 11px;
+}
+
+.menu-background-images {
+	display: none;
+}
+
+.menu-item-text {
+	font-size: 19.40px;
+	font-family: "SegoeWP", sans-serif;
+	color: rgb(155, 125, 8);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+@media (min-width: 641px) {
+	.menu-item-text {
+		font-size: 17.049px;
+		font-family: "SegoeWP", sans-serif;
+		line-height: 1.2;
+		text-align: center;
+	}
+
+	.menu-container {
+		background: url('../../Content/img/menu-background.png');
+		float: right;
+		margin-top: 61px;
+	}
+
+	.menu-item-image-container {
+		padding-left: 3px;
+		padding-top: 2px;
+	}
+
+	.menu-item-image {
+		height: 18px;
+	}
+
+	.menu-item-container {
+		padding: 6px 17px 6px 11px;
+		border-left: 1px solid rgb(217, 175, 5);
+	}
+
+	.menu-item-container:first-child {
+		padding: 10px 18px 0px 37px;
+	}
+
+	.menu-item-container:last-child {
+		padding: 10px 25px 6px 14px;
+	}
+
+	.menu-item-text-container {
+		padding-left: 10px;
+	}
+
+	.menu-item-container:first-child .menu-item-text-container {
+		padding: 0px 4px 0px 10px;
+	}
+
+	.menu-item-container:last-child .menu-item-text-container {
+		padding-left: 8px;
+	}
+
+	.menu-background-images {
+		display: table-cell;
+	}	
+
+	.menu-background-1 {
+		position: relative;
+	}
+
+	.menu-background-2 {
+		position: relative;
+	}
+
+	.menu-items {
+		position: relative;
+		z-index: 1;
+	}
+
+	.menu-background-shadow-1 {
+		background-color: rgb(245, 197, 6);
+		width: 100%;
+		opacity: 0.271;
+		height: 35px;
+		position: absolute;
+		top: -8px;
+		right: 7px;
+		z-index: 0;
+		width: 453px;
+		height: 41px;
+	}
+
+	.menu-background-shadow-2 {
+		background-color: rgb(245, 197, 6);
+		width: 100%;
+		opacity: 0.271;
+		height: 35px;
+		position: absolute;
+		top: -5px;
+		right: 4px;
+		z-index: 0;
+		width: 453px;
+		height: 41px;
+	}
+}

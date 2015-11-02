@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E2BF53BE-7B40-47CB-97F4-EF24AE0CD0EF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RWD</RootNamespace>
+    <AssemblyName>RWD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\BEM\features\text-block.css" />
+    <Content Include="Content\css\BEM\features\twitter.css" />
+    <Content Include="Content\css\BEM\features\feature-header.css" />
+    <Content Include="Content\css\BEM\features\features.css" />
+    <Content Include="Content\css\BEM\menu\menu-items.css" />
+    <Content Include="Content\css\BEM\menu\menu-shadow.css" />
+    <Content Include="Content\css\BEM\menu\menu-item-description.css" />
+    <Content Include="Content\css\BEM\menu\menu-item-logo.css" />
+    <Content Include="Content\css\BEM\menu\menu-item.css" />
+    <Content Include="Content\css\BEM\header\header-content.css" />
+    <Content Include="Content\css\BEM\header\header-text.css" />
+    <Content Include="Content\css\BEM\logo\logo-image.css" />
+    <Content Include="Content\css\BEM\logo\logo-description.css" />
+    <Content Include="Content\css\BEM\logo\logo.css" />
+    <Content Include="Content\css\BEM\footer\footer.css" />
+    <Content Include="Content\css\BEM\header\header.css" />
+    <Content Include="Content\css\BEM\links\link-description.css" />
+    <Content Include="Content\css\BEM\links\link-image.css" />
+    <Content Include="Content\css\BEM\links\links.css" />
+    <Content Include="Content\css\BEM\links\link.css" />
+    <Content Include="Content\css\BEM\device-description\device-description-content.css" />
+    <Content Include="Content\css\BEM\device-description\device-description-text.css" />
+    <Content Include="Content\css\BEM\device-description\device-description-image.css" />
+    <Content Include="Content\css\BEM\device-description\device-description-header.css" />
+    <Content Include="Content\css\BEM\menu\menu.css" />
+    <Content Include="Content\css\clearfix.css" />
+    <Content Include="Content\css\links.css" />
+    <Content Include="Content\css\BEM\device-description\device_description.css" />
+    <Content Include="Content\css\BEM\video\video.css" />
+    <Content Include="Content\css\BEM\video\mute.css" />
+    <Content Include="Content\css\BEM\video\volume.css" />
+    <Content Include="Content\css\BEM\video\progressBar.css" />
+    <Content Include="Content\css\BEM\video\videoControls.css" />
+    <Content Include="Content\css\BEM\video\playButton.css" />
+    <Content Include="Content\css\BEM\video\startPlayButton.css" />
+    <Content Include="Content\css\video.css" />
+    <Content Include="Content\css\device_description.css" />
+    <Content Include="Content\css\features.css" />
+    <Content Include="Content\css\fonts.css" />
+    <Content Include="Content\css\footer.css" />
+    <Content Include="Content\css\grid.css" />
+    <Content Include="Content\css\header.css" />
+    <Content Include="Content\css\layout.css" />
+    <Content Include="Content\css\menu.css" />
+    <Content Include="Content\css\reset.css" />
+    <Content Include="Content\css\viewport.css" />
+    <Content Include="Content\fonts\Asap\OFL.txt" />
+    <Content Include="Content\img\banner-background.png" />
+    <Content Include="Content\img\cloud.png" />
+    <Content Include="Content\img\desktop-devices.png" />
+    <Content Include="Content\img\desktop-poster.png" />
+    <Content Include="Content\img\desktop.png" />
+    <Content Include="Content\img\devices-descripton-background.png" />
+    <Content Include="Content\img\devices.png" />
+    <Content Include="Content\img\feature-background.png" />
+    <Content Include="Content\img\footer-background.png" />
+    <Content Include="Content\img\icons-background.png" />
+    <Content Include="Content\img\leave.png" />
+    <Content Include="Content\img\letter.png" />
+    <Content Include="Content\img\list-item-image.png" />
+    <Content Include="Content\img\logo-back.png" />
+    <Content Include="Content\img\logo-background.png" />
+    <Content Include="Content\img\logo-front.png" />
+    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\mute-on.png" />
+    <Content Include="Content\img\mute-off.png" />
+    <Content Include="Content\img\man.png" />
+    <Content Include="Content\img\menu-background-shadow-1.png" />
+    <Content Include="Content\img\menu-background-shadow-2.png" />
+    <Content Include="Content\img\menu-background.png" />
+    <Content Include="Content\img\mobile-poster.png" />
+    <Content Include="Content\img\monkey-and-man.png" />
+    <Content Include="Content\img\plane.png" />
+    <Content Include="Content\img\play-button.png" />
+    <Content Include="Content\img\player-progress.png" />
+    <Content Include="Content\img\plus.png" />
+    <Content Include="Content\img\smartphone.png" />
+    <Content Include="Content\img\spanner.png" />
+    <Content Include="Content\img\start-play.png" />
+    <Content Include="Content\img\tablet.png" />
+    <Content Include="Content\img\twitter.png" />
+    <Content Include="Content\videos\birds.mp4" />
+    <Content Include="Content\videos\birds.webm" />
+    <Content Include="Index.html" />
+    <Content Include="Index_BEM.html" />
+    <Content Include="Script\jquery-2.0.3.min.js" />
+    <Content Include="Script\video-controls.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\PTSans\PTSansBold\PTSansBold.eot" />
+    <Content Include="Content\fonts\PTSans\PTSansBold\PTSansBold.ttf" />
+    <Content Include="Content\fonts\PTSans\PTSansBold\PTSansBold.woff" />
+    <Content Include="Content\fonts\PTSans\PTSansItalic\PTSansItalic.eot" />
+    <Content Include="Content\fonts\PTSans\PTSansItalic\PTSansItalic.ttf" />
+    <Content Include="Content\fonts\PTSans\PTSansItalic\PTSansItalic.woff" />
+    <Content Include="Content\fonts\PTSans\PTSansRegular\PTSansRegular.eot" />
+    <Content Include="Content\fonts\PTSans\PTSansRegular\PTSansRegular.ttf" />
+    <Content Include="Content\fonts\PTSans\PTSansRegular\PTSansRegular.woff" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProBold\SourceSansProBold.eot" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProBold\SourceSansProBold.ttf" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProBold\SourceSansProBold.woff" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProLight\SourceSansProLight.eot" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProLight\SourceSansProLight.ttf" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProLight\SourceSansProLight.woff" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProRegular\SourceSansProRegular.eot" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProRegular\SourceSansProRegular.ttf" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProRegular\SourceSansProRegular.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansBoldItalic\OpenSansBoldItalic.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansBoldItalic\OpenSansBoldItalic.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansBoldItalic\OpenSansBoldItalic.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansBold\OpenSansBold.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansBold\OpenSansBold.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansBold\OpenSansBold.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansExtraBoldItalic\OpenSansExtraBoldItalic.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansExtraBoldItalic\OpenSansExtraBoldItalic.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansExtraBoldItalic\OpenSansExtraBoldItalic.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansExtraBold\OpenSansExtraBold.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansExtraBold\OpenSansExtraBold.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansExtraBold\OpenSansExtraBold.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansItalic\OpenSansItalic.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansItalic\OpenSansItalic.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansItalic\OpenSansItalic.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansLightItalic\OpenSansLightItalic.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansLightItalic\OpenSansLightItalic.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansLightItalic\OpenSansLightItalic.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansLight\OpenSansLight.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansLight\OpenSansLight.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansLight\OpenSansLight.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansRegularItalic\OpenSansRegularItalic.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansRegularItalic\OpenSansRegularItalic.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansRegularItalic\OpenSansRegularItalic.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansRegular\OpenSansRegular.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansRegular\OpenSansRegular.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansRegular\OpenSansRegular.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansSemiBoldItalic\OpenSansSemiBoldItalic.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansSemiBoldItalic\OpenSansSemiBoldItalic.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansSemiBoldItalic\OpenSansSemiBoldItalic.woff" />
+    <Content Include="Content\fonts\OpenSans\OpenSansSemiBold\OpenSansSemiBold.eot" />
+    <Content Include="Content\fonts\OpenSans\OpenSansSemiBold\OpenSansSemiBold.ttf" />
+    <Content Include="Content\fonts\OpenSans\OpenSansSemiBold\OpenSansSemiBold.woff" />
+    <Content Include="Content\fonts\PTSansNarrow\PTSansNarrowBold\PTSansNarrowBold.eot" />
+    <Content Include="Content\fonts\PTSansNarrow\PTSansNarrowBold\PTSansNarrowBold.ttf" />
+    <Content Include="Content\fonts\PTSansNarrow\PTSansNarrowBold\PTSansNarrowBold.woff" />
+    <Content Include="Content\fonts\PTSansNarrow\PTSansNarrowRegular\PTSansNarrow.eot" />
+    <Content Include="Content\fonts\PTSansNarrow\PTSansNarrowRegular\PTSansNarrow.ttf" />
+    <Content Include="Content\fonts\PTSansNarrow\PTSansNarrowRegular\PTSansNarrow.woff" />
+    <Content Include="Content\fonts\Segoe WP\SegoeWP-Black.ttf" />
+    <Content Include="Content\fonts\Segoe WP\SegoeWP-Bold.ttf" />
+    <Content Include="Content\fonts\Segoe WP\SegoeWP-Light.ttf" />
+    <Content Include="Content\fonts\Segoe WP\SegoeWP-Semibold.ttf" />
+    <Content Include="Content\fonts\Segoe WP\SegoeWP-Semilight.ttf" />
+    <Content Include="Content\fonts\Segoe WP\SegoeWP.ttf" />
+    <Content Include="Content\fonts\Asap\Asap-Bold.otf" />
+    <Content Include="Content\fonts\Asap\Asap-Bold.ttf" />
+    <Content Include="Content\fonts\Asap\Asap-BoldItalic.otf" />
+    <Content Include="Content\fonts\Asap\Asap-BoldItalic.ttf" />
+    <Content Include="Content\fonts\Asap\Asap-Italic.otf" />
+    <Content Include="Content\fonts\Asap\Asap-Italic.ttf" />
+    <Content Include="Content\fonts\Asap\Asap-Medium.otf" />
+    <Content Include="Content\fonts\Asap\Asap-MediumItalic.otf" />
+    <Content Include="Content\fonts\Asap\Asap-Regular.otf" />
+    <Content Include="Content\fonts\Asap\Asap-Regular.ttf" />
+    <Content Include="Content\videos\birds.ogv" />
+    <Content Include="Content\fonts\Lucida Sans\Lucida Sans Regular.ttf" />
+    <Content Include="Content\fonts\LAO UI\LAO UI.ttf" />
+    <Content Include="Content\fonts\Lucida Sans\Lucida Sans Italic.ttf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7171/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

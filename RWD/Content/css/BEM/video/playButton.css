@@ -1,0 +1,18 @@
+﻿.play-button {
+	background: rgb(245, 197, 6);
+	border: none;
+	margin-right: 20px;
+	float: left;
+}
+
+.play-button:focus {
+	outline: none;
+}
+
+.play-button::-moz-focus-inner {
+	border: 0;
+}
+
+.play-button__image {
+	padding: 4px 0px 4px 0px;
+}

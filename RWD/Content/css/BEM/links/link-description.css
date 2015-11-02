@@ -1,0 +1,48 @@
+﻿.link-description {
+	padding-top: 11px;
+	text-align: center;
+	margin-left: 19px;
+}
+
+.link-description--first {
+	padding-top: 18px;
+	margin-left: 15px;
+	text-align: left;
+}
+
+.link-description--last {
+	margin-left: 8px;
+}
+
+.link-description__text {
+	font-size: 23px;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: normal;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+@media (min-width: 641px) {
+	.link-description {
+		padding-top: 10px;
+		text-align: center;
+		margin-left: 26px;
+	}
+	
+	.link-description--first {
+		text-align: center;
+		padding-top: 8px;
+		margin-left: 21px;
+	}
+
+	.link-description--last {
+		padding-top: 7px;
+		margin-left: -21px;
+		letter-spacing: -1.9px;
+	}
+	
+	.link-description__text {
+		font-size: 27px;
+	}
+}

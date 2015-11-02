@@ -1,0 +1,31 @@
+﻿.logo {
+	display: table;
+	padding: 11px 0px 10px 5px;
+}
+
+.logo--big {
+	float: left;
+	background: url('../../../../Content/img/logo-background.png');
+	background-size: cover;
+}
+
+.logo--small {
+	padding: 4px 0px 6px 0px;
+	margin-left: 36.5%
+}
+
+@media (min-width: 641px) {
+	.logo {
+		padding: 18px 0px 0px 0px;
+	}
+
+	.logo--big {
+		float: left;
+		background: none;
+	}
+
+	.logo--small {
+		padding: 2px 0px 7px 0px;
+		margin-left: 40%;
+	}
+}

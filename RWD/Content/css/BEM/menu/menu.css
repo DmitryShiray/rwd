@@ -1,0 +1,16 @@
+﻿.menu {
+	background: url('../../../../Content/img/menu-background.png');
+}
+
+@media (min-width: 641px) {
+	.menu {
+		background: url('../../../../Content/img/menu-background.png');
+		float: right;
+		margin-top: 61px;
+	}
+	
+	.menu-items {
+		position: relative;
+		z-index: 1;
+	}
+}

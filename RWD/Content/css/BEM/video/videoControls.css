@@ -1,0 +1,19 @@
+﻿.video-controls {
+	position: absolute;
+	bottom: 25px;
+	opacity: 0.65;
+	width: 87%;
+	left: 13%;
+}
+
+.video-controls--small {
+	width: 80%;
+}
+
+@media (min-width: 641px) {
+	.video-controls {
+		left: 29px;
+		bottom: 21px;
+		width: 100%;
+	}
+}

@@ -1,0 +1,29 @@
+﻿.volume {
+	top: -18px;
+	right: 33px;
+	position: relative;
+	cursor: pointer;
+	float: left;
+	height: 10px;
+	width: 30px;
+	background-color: #000000;
+	background-color: rgba(245, 197, 7, 0.5);
+	
+	transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.volume__volume-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #f5c507;
+	background-color: rgba(245, 197, 7, 1);
+}

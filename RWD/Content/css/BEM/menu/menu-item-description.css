@@ -1,0 +1,43 @@
+﻿.menu-item-description {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+}
+
+.menu-item-description--first {
+	padding-left: 12px;
+}
+
+.menu-item-description--last {
+	padding-left: 11px;
+}
+
+.menu-item-description__text{
+	font-size: 19.40px;
+	font-family: "SegoeWP", sans-serif;
+	color: rgb(155, 125, 8);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+@media (min-width: 641px) {
+	.menu-item-description__text {
+		font-size: 17.049px;
+		font-family: "SegoeWP", sans-serif;
+		line-height: 1.2;
+		text-align: center;
+	}
+
+	.menu-item-description {
+		padding-left: 10px;
+	}
+
+	.menu-item-description--first {
+		padding: 0px 4px 0px 10px;
+	}
+
+	.menu-item-description--last {
+		padding-left: 8px;
+	}
+}

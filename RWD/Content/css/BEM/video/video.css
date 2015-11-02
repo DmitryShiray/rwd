@@ -1,0 +1,40 @@
+﻿.video {
+	position: relative;
+}
+
+.video--small {
+	margin: 1px 8px 8px 0px;
+	float: right;
+}
+
+
+.video__video-source {
+	max-width: 100%;
+}
+
+.video__video-source--big {
+	width: 640px;
+	height: 327px;
+}
+
+.video__video-source--small {
+	width: 315px;
+	height: 232px;
+}
+
+@media (min-width: 641px) {
+	.video {
+		margin: 3px 9px 11px 11px;
+	}
+	
+	.video--small {
+		float: left;
+		margin: 0px 10px 10px 0px;
+	}
+	
+	.video__video-source--big {
+		display: table-cell;
+		vertical-align: middle;
+		width: 549px;
+	}
+}

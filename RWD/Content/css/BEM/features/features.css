@@ -1,0 +1,7 @@
+﻿@media (min-width: 641px) {
+	.features {
+		background: url('../../../../Content/img/feature-background.png');
+		background-size: cover;
+		padding-bottom: 128px;
+	}
+}
