@@ -1,0 +1,187 @@
+﻿.video-container {
+	position: relative;
+}
+
+.header-video {
+	max-width: 100%;
+	width: 640px;
+	height: 327px;
+}
+
+.body-video {
+	max-width: 100%;
+	width: 315px;
+	height: 232px;
+}
+
+.start-play-button {
+	cursor: pointer;
+	position: absolute;
+	left: 46%;
+	top: 39%;
+	opacity: 0.6;
+	border: none;
+	border-radius: 50%;
+	background-color: rgb(245,197,6);
+}
+
+.start-play-button:focus,
+.play-button:focus {
+	outline: none;
+}
+
+.start-play-button::-moz-focus-inner,
+.play-button::-moz-focus-inner {
+	border: 0;
+}
+
+.start-play-button .play-button-image {
+	padding: 16px 15px 15px 15px;
+	margin-left: 4px;
+}
+
+.body-video ~ .start-play-button {
+	left: 41%;
+	top: 40%;
+}
+
+.body-video ~ .start-play-button .play-button-image {
+	padding: 15px 12px 10px 11px;
+	margin-left: 5px;
+}
+
+.video-controls {
+	position: absolute;
+	bottom: 25px;
+	opacity: 0.65;
+	width: 87%;
+	left: 13%;
+}
+
+.body-video ~ .video-controls {
+	width: 80%;
+}
+
+.body-video ~ .video-controls .progress-bar {
+	width: 52%;
+}
+
+.body-video ~ .video-controls .mute {
+	margin-left: 11px;
+}
+
+.play-button {
+	background: rgb(245, 197, 6);
+	border: none;
+	margin-right: 20px;
+	float: left;
+}
+
+.play-button-image {
+	padding: 4px 0px 4px 0px;
+}
+
+.mute {
+	float: left;
+	background: none;
+	border: none;
+	margin: 5px 0px 0px 24px;
+}
+
+.progress-bar {
+	border-radius: 5px;
+	float: left;
+	position: relative;
+	width: 73%;
+	height: 12px;
+	background-color: #000000;
+	background-color: rgba(245, 197, 7, 0.5);
+	top: 7px;
+	left: 4px;
+}
+
+.time-bar {
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #f5c507;
+	background-color: rgba(245, 197, 7, 1);
+}
+
+.volume {
+	top: -18px;
+	right: 33px;
+	position: relative;
+	cursor: pointer;
+	float: left;
+	height: 10px;
+	width: 30px;
+	background-color: #000000;
+	background-color: rgba(245, 197, 7, 0.5);
+	
+	transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.volume-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #f5c507;
+	background-color: rgba(245, 197, 7, 1);
+}
+
+@media (min-width: 641px) {
+	.header-video {
+		display: table-cell;
+		vertical-align: middle;
+		width: 549px;
+	}
+
+	.video-controls {
+		left: 29px;
+		bottom: 21px;
+		width: 100%;
+	}
+
+	.progress-bar {
+		width: 74%;
+	}
+
+	.video-container {
+		margin: 3px 9px 11px 11px;
+	}
+	
+	.video-block-container .start-play {
+		left: 40%;
+		top: 40%;
+	}
+
+	.start-play-button {
+		left: 44%;
+	}
+
+	.mute {
+		margin-left: 25px;
+	}
+
+	.body-video ~ .start-play-button {
+		top: 39.5%;
+		left: 42%;
+	}
+
+	.body-video ~ .start-play-button .play-button-image {
+		padding: 11px 10px 11px 11px;
+		margin-left: 5px;
+	}
+}

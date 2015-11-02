@@ -1,0 +1,22 @@
+﻿.links {
+	background: url('../../../../Content/img/icons-background.png');
+}
+
+@media (max-width: 640px) {
+	.links {
+		position: relative;
+		margin-top: -10px;
+		margin-bottom: 10px;
+		background: url('../../../../Content/img/icons-background.png');
+	}
+}
+
+@media (min-width: 641px) {
+	.links {
+		margin-top: 0px;
+
+		box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+		-webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+		-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+	}
+}
