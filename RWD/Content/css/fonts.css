@@ -1,0 +1,71 @@
+﻿@font-face {
+	font-family: "OpenSans";
+	src: url("../../Content/fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../../Content/fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), 
+		url("../../Content/fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff") format("woff"), 
+		url("../../Content/fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url("../../Content/fonts/PTSans/PTSansRegular/PTSansRegular.eot");
+	src: url("../../Content/fonts/PTSans/PTSansRegular/PTSansRegular.eot?#iefix") format("embedded-opentype"), 
+		url("../../Content/fonts/PTSans/PTSansRegular/PTSansRegular.woff") format("woff"), 
+		url("../../Content/fonts/PTSans/PTSansRegular/PTSansRegular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans NarrowBold';
+	src: url("../../Content/fonts/PTSansNarrow/PTSansNarrowBold/PTSansNarrowBold.eot");
+	src: url("../../Content/fonts/PTSansNarrow/PTSansNarrowBold/PTSansNarrowBold.eot?#iefix") format("embedded-opentype"), 
+		url("../../Content/fonts/PTSansNarrow/PTSansNarrowBold/PTSansNarrowBold.woff") format("woff"), 
+		url("../../Content/fonts/PTSansNarrow/PTSansNarrowBold/PTSansNarrowBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeWP';
+	src: url("../../Content/fonts/Segoe WP/SegoeWP-Light.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeWP Light';
+	src: url("../../Content/fonts/Segoe WP/SegoeWP-Light.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Asap Regular';
+	src: url("../../Content/fonts/Asap/Asap-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lucida Sans';
+	src: url("../../Content/fonts/Lucida Sans/Lucida Sans Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}	
+
+@font-face {
+	font-family: 'Lucida Sans Italic';
+	src: url("../../Content/fonts/Lucida Sans/Lucida Sans Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}	
+
+@font-face {
+	font-family: 'Lao UI';
+	src: url("../../Content/fonts/LAO UI/LAO UI.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}	

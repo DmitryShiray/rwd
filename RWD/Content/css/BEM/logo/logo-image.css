@@ -1,0 +1,35 @@
+﻿.logo-image {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+}
+
+.logo-image__item {
+	width: 39px;
+	height: 39px;
+}
+
+.logo-image__item--small {
+	width: 32px;
+	height: 32px;
+}
+
+@media (min-width: 641px) {
+	.logo-image {
+		padding-left: 0px;
+	}
+
+	.logo-image__item {
+		width: 85px;
+		height: 85px;
+	}
+
+	.logo-image__item--small {
+		height: 55px;
+		width: 52px;
+	}
+}
+
+.logo-image--small {
+	padding: 2px 0px 0px 10px;
+}

@@ -1,0 +1,27 @@
+﻿.device-description-header {
+	text-align: center;
+	padding-top: 33px;
+}
+
+.device-description-header__text {
+	font-size: 39.049px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	color: rgb(245, 197, 6);
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+@media (min-width: 641px) {
+	.device-description-header {
+		padding: 36px 0px 2px;
+	}
+
+	.device-description-header__text {
+		font-size: 43.049px;
+		font-family: "PTSans", sans-serif;
+		color: rgb(245, 197, 6);
+		text-transform: uppercase;
+		line-height: 1.2;
+	}
+}

@@ -1,0 +1,41 @@
+﻿.link-image--first {
+	margin-left: 45px;
+	padding-top: 3px;
+}
+
+.link-image--middle {
+	margin-left: 80px;
+}
+
+.link-image--last {
+	margin-left: 69px;
+}
+
+.link-image__item {
+	height: 70px;
+}
+
+.link-image__item--small {
+	height: 60px;
+}
+
+@media (min-width: 641px) {
+	.link-image--first {
+		margin-left: 0px;
+		padding-top: 22px;
+	}
+
+	.link-image--middle {
+		margin-left: 23px;
+	}
+
+	.link-image--last {
+		margin-left: -17px;
+		margin-top: 15px;
+	}
+
+	.link-image__item, 
+	.link-image__item--small {
+		height: 100%;
+	}
+}

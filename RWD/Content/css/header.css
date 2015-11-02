@@ -1,0 +1,144 @@
+﻿.header-container .logo-container {
+	float: left;
+	background: url('../../Content/img/logo-background.png');
+	background-size: cover;
+}
+
+.logo-container {
+	display: table;
+	padding: 11px 0px 10px 5px;
+}
+
+.logo-image-container {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+}
+
+.logo-image {
+	width: 39px;
+	height: 39px;
+}
+
+.logo-text-container {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 4px 26px 0px 7px;
+}
+
+.logo-text {
+	font-size: 19px;
+	font-family: "Lucida Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	font-style: italic;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
+}
+
+.logo-text-small {
+	display: none;
+}
+
+.header-text-container {
+	display: none;
+}
+
+.header-text {
+	font-size: 63.049px;
+	font-family: "Asap Regular", sans-serif;
+	font-weight: normal;
+	color: rgb(245, 197, 6);
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.header-text-white {
+	color: rgb(255, 255, 255);
+}
+
+@media (max-width: 640px) {
+	.header-container::after {
+		margin-top: -7px;
+		height: 5px;
+		content: '';
+		display: block;
+		position: relative;
+		background: url('../../Content/img/icons-background.png');
+	}
+}
+
+@media (min-width: 641px) {
+	.logo-container {
+		padding: 18px 0px 0px 0px;
+	}
+
+	.logo-text-container {
+		padding: 6px 25px 0px 3px;
+	}
+
+	.header-container {
+		background: url('../../Content/img/banner-background.png');
+		background-size: cover;
+		padding-top: 10px;
+	}
+	
+	.header-container .logo-container {
+		float: left;
+		background: none;
+	}
+
+	.header-content {
+		display: table;
+		padding: 50px 0px 59px 0px;
+	}
+
+	.header-text-container {
+		display: table-cell;
+		vertical-align: top;
+		padding-left: 36px;
+		padding-top: 77px;
+	}
+
+	.logo-image-container {
+		padding-left: 0px;
+	}
+
+	.logo-image {
+		width: 85px;
+		height: 85px;
+	}
+
+	.logo-text {
+		display: inline;
+		font-size: 41px;
+		font-family: "Lucida Sans Italic", sans-serif;
+		color: rgb(255, 255, 255);
+		font-style: normal;
+		text-transform: uppercase;
+		line-height: 1.2;
+		text-align: center;
+		text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
+	}
+
+	.logo-text-small {
+		display: inline;
+		font-size: 13.3px;
+		font-weight: normal;
+		font-family: "Lao UI", sans-serif;
+		color: rgba(255, 255, 255, 0.769);
+		text-transform: uppercase;
+		line-height: 1.2;
+		margin-left: -5px;
+	}
+	
+	.header-text {
+		margin-left: -10px;
+	}
+
+	.header-text-white {
+		margin-left: 5px;
+	}
+}
